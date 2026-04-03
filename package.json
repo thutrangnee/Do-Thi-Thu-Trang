@@ -1,0 +1,26 @@
+{
+  "name": "capstone-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thutrangnee/Do-Thi-Thu-Trang.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/thutrangnee/Do-Thi-Thu-Trang/issues"
+  },
+  "homepage": "https://github.com/thutrangnee/Do-Thi-Thu-Trang#readme",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "ejs": "^5.0.1",
+    "express": "^5.2.1"
+  }
+}
