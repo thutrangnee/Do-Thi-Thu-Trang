@@ -1,0 +1,45 @@
+.container{
+    height: 55px ;
+    /* border-bottom: 2px solid black ; */
+}
+.navbar {
+    border-bottom: 2px solid black !important; 
+}
+.navbar-nav .nav-link {
+    color: black !important;
+    font-family: Lexend Deca 
+;       
+    transition: 0.3s;         
+}
+
+/* Hiệu ứng khi di chuột qua (Hover) */
+.navbar-nav .nav-link:hover {
+    color: rgb(104, 104, 104) !important; /* Chuyển sang màu xám nhẹ khi hover */
+}
+.navbar {
+    /* background-color: #fbbebe !important; */
+    background-color: #ffcaca !important ;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.container .navbar-brand{
+    font-size: 25px;
+    font-family: Lexend Deca !important;
+}
+button {
+    border: none !important;
+    background-color:#ffcaca ;
+    font-family:Lexend Deca  ;
+}
+button:hover{
+    color:rgb(104, 104, 104);
+}
+
+
+
+
+

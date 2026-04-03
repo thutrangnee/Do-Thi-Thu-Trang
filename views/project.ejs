@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/project.css" />
+  </head>
+  <body>
+    <div class="header"><%- include("partials/header.ejs") %></div>
+    <div class="content_projects">
+        <div class="projects_title">
+            <h2>My Projects</h2>
+            <p>Here are some of the projects I've worked on, showcasing my skills in creating functional, <br>visually appealing, and user-friendly websites.</p>
+        </div>
+        <div class="myprojects">
+            <div class="my_one"></div>
+            <div class="my_two"></div>
+            <div class="my_three"></div>
+            <div class="my_four"></div>
+            <div class="my_five"></div>
+            <div class="my_six"></div>
+            <div class="my_seven"></div>
+            <div class="my_eight"></div>
+            <div class="my_nine"></div>
+            <div class="my_ten"></div>
+            <div class="my_eleven"></div>
+            <div class="my_twelve"></div>
+        </div>
+    </div>
+    <div class="footer"><%- include("partials/footer.ejs") %></div>
+
+    <%- include("partials/contact.ejs") %>
+    <script>
+      function openContact() {
+        // Hiện toàn bộ vùng contact
+        document.getElementById("contactArea").style.display = "flex";
+      }
+
+      function closeContact() {
+        // Ẩn vùng contact
+        document.getElementById("contactArea").style.display = "none";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_right_alt" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lavishly+Yours&family=Lexend+Deca:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat:wght@400..700&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lavishly+Yours&family=Lexend+Deca:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Outfit:wght@100..900&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  <body>
+      <%- include("partials/header.ejs") %>
+       <%- include("partials/contact.ejs") %>
+    <div class="container">
+        <div class="container-content">
+          <h1>
+       
+        Hi, I'm Do Thi Thu </br>
+        Trang
+         </h1>
+          <p class="anima">Aspiring <span class="animation">Frontend Developer</span></p>
+          <p class="italic">Your vision, my code.</p>
+          <p class="view-my-work"><a href="/project">View my work <span class="material-symbols-outlined">
+arrow_right_alt
+</span></a></p>
+
+    
+      <button><a href="https://www.topcv.vn/xem-cv/CQMHVFZRAQkBWAgDVlcHCFYABAUABhr1YEAwUCUQ223e">Download CV</a></button>
+    </div>
+
+        <div class="container-img">
+          <img src="/image/Screenshot 2026-03-30 at 10.03.46.png" width="350px" height="450px">
+    </div>
+    
+  </div>
+
+  <div class="about2">
+    <div class="about_content">
+      <h2>About me</h2>
+      <p class="me">I'm an aspiring frontend developer passionate about creating clean, responsive, and visually <br> appealing websites. I enjoy turning ideas into functional, interactive experiences using HTML, <br>CSS, JavaScript, React, and Tailwind CSS.</p>
+    
+    </div>
+    <div class="about_experience">
+      <div class="coder">
+        <div class="logo"><i class="fa-solid fa-laptop-code"></i></div>
+        <p class="a title">Clean & Semantic Code</p>
+        <p class="a">Writing well-structured, semantic <br>HTML and React components for<br> maintainable codebases.</p>
+      </div>
+      <div class="styling">
+        <div class="logo"><i class="fa-brands fa-css3-alt"></i></div>
+        <p class="a title">Modern UI Styling</p>
+        <p class="a">Crafting visually appealing<br> interfaces using Tailwind CSS and <br>responsive design principles.</p>
+      </div>
+      <div class="interact">
+        <div class="logo"><i class="fa-brands fa-slack"></i></div>
+        <p class="a title">Interactive Components</p>
+        <p class="a">Building dynamic, user-friendly<br> components with React and UI libraries.</p>
+      </div>
+    </div>
+  </div>
+  <%- include("partials/footer.ejs") %>
+
+
+
+<script>
+    function openContact() {
+        // Hiện toàn bộ vùng contact
+        document.getElementById('contactArea').style.display = 'flex';
+    }
+
+    function closeContact() {
+        // Ẩn vùng contact
+        document.getElementById('contactArea').style.display = 'none';
+    }
+</script>
+  </body>
+</html>

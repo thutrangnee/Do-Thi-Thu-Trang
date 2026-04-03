@@ -1,0 +1,84 @@
+.contents {
+    display: grid;
+    grid-template-rows:  1fr 1fr;
+    text-align: center;
+}
+.contents_do {
+    background-color: #ffe7e7 ;
+}
+.contents_title{
+    font-size: 38px !important;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.contents_paragraph {
+    font-size: 16px !important;
+    color: rgb(91, 87, 87);
+}
+.contents_box {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 210px;
+    margin-top: 60px;
+}
+.box {
+    background-color: #ffcaca !important ;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    margin-top:60px ;
+    margin-left: 250px;
+    width: 800px;
+}
+.image img{
+    width: 100px;
+    height: 100px;
+    margin-left: 25px;
+  
+}
+.number {
+    display: flex;
+    flex-direction: column;
+}
+.image_title {
+    font-size: 13px !important;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.image {
+  /* Chạy 2 animation: gõ chữ và nhấp nháy con trỏ */
+  animation: slide 3s linear infinite alternate;
+}
+/* Hiệu ứng gõ: tăng chiều rộng từ 0 lên 100% */
+@keyframes slide {
+  0% {
+    /* Bắt đầu: nằm gọn bên trái */
+    transform: translateX(0);
+  }
+  100% {
+    /* Kết thúc: chạy lố hẳn ra ngoài khung 400px */
+    /* Với 450px, nó sẽ lướt ra ngoài 50px -> 50px đó bị biến mất, 50px còn lại vẫn thấy */
+    transform: translateX(50px); 
+  }
+  }
+
+.box_title {
+    font-size: 18px !important;
+    font-weight: bold;
+    margin-top: 17px;
+}
+.box_paragraph {
+    font-size: 14px !important;
+    color: rgb(70, 68, 68);
+}
+.icon {
+    font-size: 45px;
+    margin-top: 10px;
+}

@@ -1,0 +1,170 @@
+body {
+  background-color: #fdf8ea !important;
+  font-family: Lexend Deca !important;
+}
+
+.container-content {
+  float: left;
+  margin-left: 50px;
+  margin-top: 170px;
+  padding-bottom: 270px;
+}
+span {
+  color: #f51857;
+}
+button a {
+  text-decoration: none;
+  color: black;
+}
+button {
+  background-color: #fbbebe ;
+  border: 1px solid black !important;
+}
+
+.view-my-work a {
+  display: inline-flex; /* Chuyển link thành flex container */
+  align-items: center; /* Căn giữa tất cả các phần tử con theo chiều dọc */
+  text-decoration: none;
+  gap: 5px; /* Khoảng cách giữa chữ và mũi tên */
+  color: #f51857;
+  font-size: 15px;
+}
+
+.view-my-work :hover {
+  color: #fb9292;
+}
+
+.italic {
+  font-size: 15px;
+  font-style: italic;
+}
+
+p {
+  font-size: 30px;
+}
+h1 {
+  font-family: Outfit !important;
+  font-weight: bold !important;
+  font-size: 50px !important;
+}
+
+.anima{
+    font-size: 25px !important;
+}
+
+p .animation {
+  display: inline-flex;
+  align-items: center;
+  overflow: hidden; /* Ẩn phần chữ chưa "gõ" xong */
+  white-space: nowrap;
+  font-weight: bold; /* Không cho xuống dòng */
+
+  /* Chạy 2 animation: gõ chữ và nhấp nháy con trỏ */
+  animation: typing 1s steps(18, end) infinite alternate;
+}
+/* Hiệu ứng gõ: tăng chiều rộng từ 0 lên 100% */
+@keyframes typing {
+  /* Từ 0% đến 50% thời gian: Thực hiện việc gõ chữ (từ width 0 đến 100%) */
+  0%,
+  10% {
+    width: 0;
+  }
+  50%,
+  60% {
+    width: 60%;
+  }
+  /* Khoảng từ 50% đến 100% thời gian, width giữ nguyên là 100% => Chữ đứng yên 3s */
+}
+
+.container-img {
+  float: right;
+  /* display: flexbox;
+    justify-self: center; */
+  margin-top: 120px;
+  margin-right: 70px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 3px solid black;
+  /* padding-bottom: 150px; */
+}
+
+/* phan khac */
+.about2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-color: white;
+  
+}
+.about_experience {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    padding-left: 140px;
+}
+.a {
+    font-size: 13px !important;
+}
+.title{
+    font-weight: bold;
+    font-size: 20px !important;
+}
+.coder{
+    background-color: #fdf8ea ;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+
+}
+.styling {
+    background-color: #fdf8ea ;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.interact {
+    background-color: #fdf8ea ;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.logo {
+    font-size: 60px;
+}
+h2{
+    font-size: 35px !important;
+    font-weight: bold !important;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}  
+.about_content{
+    margin-bottom: 50px;
+}
+.me {
+    font-size: 15px !important;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .container-content h1 {
+    font-size: 30px !important;
+  }
+  .container-content p {
+    font-size: 15px !important;
+  }
+  .container-content .italic {
+    font-size: 13px !important;
+  }
+  .container-content a{
+    font-size: 13px !important;
+  }
+}
+
+
+

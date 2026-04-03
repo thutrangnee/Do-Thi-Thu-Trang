@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/skill.css">
+</head>
+<body>
+     <div class="header">
+         <%- include("partials/header.ejs") %>
+    </div>
+    <div class="contents">
+        <div class="contents_intro">
+            <p class="contents_title">My Tech Stack</p>
+            <p class="contents_paragraph">I specialize in front-end web development, creating responsive and visually <br> engaging websites using HTML5, CSS3, Tailwind CSS, JavaScript, and React.<br> With Vite for fast builds and Git for version control, I deliver everything from static sites<br> to single-page applications focused on performance, accessibility, and great user experience.</p>
+            <div class="image">
+                <div class="number one">
+                    <img src="/image/_.jpeg">
+                    <p class="image_title">HTML</p>
+                </div>
+                <div class="number two">
+                    <img src="/image/Icono - CSS.jpeg">
+                    <p class="image_title">CSS</p>
+                </div>
+                <div class="number three">
+                    <img src="/image/The First Step to Mastering JavaScript (JS).jpeg">
+                    <p class="image_title">JavaScript</p>
+                </div>
+                <div class="number four">
+                    <img src="/image/React logo in (_SVG) vector free download.jpeg">
+                    <p class="image_title">React</p>
+                </div>
+                <div class="number five">
+                    <img src="/image/NodeJS, une définition - ZDNET.jpeg">
+                    <p class="image_title">Node JS</p>
+                </div>
+                <div class="number six">
+                    <img src="/image/Jquery Logo PNG Vector (SVG) Free Download.jpeg">
+                    <p class="image_title">JQuery</p>
+                </div>
+                <div class="number seven">
+                    <img src="/image/Git.jpeg">
+                    <p class="image_title">Git</p>
+                </div>
+            </div>
+        </div>
+        <div class="contents_do">
+            <p class="contents_title">What Can I Do</p>
+            <p class="contents_paragraph">I create responsive, visually appealing, and user-friendly websites that combine <br> great design with smooth functionality, turning ideas into fast, engaging <br> digital products.</p>
+            <div class="contents_box">
+                <div class="box 1">
+                    <div class="icon"><i class="fa-solid fa-window-restore"></i></div>
+                    <p class="box_title">Static Website Development</p>
+                    <p class="box_paragraph">Simple, fast-loading, and lightweight websites perfect for portfolios, landing pages, or business profiles.</p>
+                </div>
+                <div class="box 2">
+                    <div class="icon"><i class="fa-solid fa-file-contract"></i></div>
+                    <p class="box_title">Single-Page Applications</p>
+                    <p class="box_paragraph">Modern, app-like web experiences built for speed and smooth navigation.</p>
+                </div>
+                <div class="box 3">
+                    <div class="icon"><i class="fa-solid fa-circle-up"></i></div>
+                    <p class="box_title">Website Redesign & Optimization</p>
+                    <p class="box_paragraph">Revamping existing sites for better performance, visuals, and usability.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+         <%- include("partials/footer.ejs") %>
+    </div>
+
+  <%- include("partials/contact.ejs") %>
+<script>
+    function openContact() {
+        // Hiện toàn bộ vùng contact
+        document.getElementById('contactArea').style.display = 'flex';
+    }
+
+    function closeContact() {
+        // Ẩn vùng contact
+        document.getElementById('contactArea').style.display = 'none';
+    }
+</script>
+</body>
+</html>

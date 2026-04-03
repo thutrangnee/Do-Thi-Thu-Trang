@@ -1,0 +1,22 @@
+.projects_title h2 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Lexend Deca;
+    margin-top: 60px;
+}
+.projects_title p{
+    font-size: 15px !important;
+    text-align: center;
+    margin-top: 17px;
+    color: rgb(49, 47, 47);
+}
+
+.myprojects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1.25fr 1.25fr 1.25fr 1.25fr ;
+}
+body {
+    background-color: #fdf8ea !important;
+}

@@ -1,0 +1,72 @@
+.boxs {
+    width: 350px;
+    height: 320px;
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    background-color: rgba(236, 229, 229, 0.2) ;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./image/_.webp) !important;
+    background-size: cover !important;
+    backdrop-filter: blur(3px) !important;
+    -webkit-backdrop-filter: blur(5px);
+}
+.title-h1{
+    color: #7AAACE;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-family: Kavoon;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    gap:15px;
+    
+}
+#name {
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    width: 200px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 13px;
+    padding: 13px;
+}
+#password {
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    width: 200px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 13px;
+    padding: 13px;
+}
+#submit{
+    color:#5f9ccb;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flexbox;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    width: 70px;
+    height: 25px;
+    align-self: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+p{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 30px;
+    color: #57595B;
+
+}
+
