@@ -69,4 +69,11 @@ p{
     color: #57595B;
 
 }
+@media only screen and (max-width: 600px) {
+    body{
+        width: 450px;
+        height: 600px;
+    }
+}
+
 

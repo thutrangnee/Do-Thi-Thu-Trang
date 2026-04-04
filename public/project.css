@@ -20,3 +20,9 @@
 body {
     background-color: #fdf8ea !important;
 }
+@media only screen and (max-width: 600px) {
+    body{
+        width: 450px;
+        height: 600px;
+    }
+}

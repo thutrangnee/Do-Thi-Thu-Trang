@@ -88,3 +88,8 @@ hr {
 .getintouch .fa-solid {
     color: #f51857;
 }
+@media only screen and (max-width: 600px){
+    .contact2_contents {
+        width: 300px;
+    }
+}

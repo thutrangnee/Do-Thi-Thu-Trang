@@ -17,7 +17,7 @@ button a {
   color: black;
 }
 button {
-  background-color: #fbbebe ;
+  background-color: #fbbebe;
   border: 1px solid black !important;
 }
 
@@ -48,8 +48,8 @@ h1 {
   font-size: 50px !important;
 }
 
-.anima{
-    font-size: 25px !important;
+.anima {
+  font-size: 25px !important;
 }
 
 p .animation {
@@ -89,71 +89,69 @@ p .animation {
 }
 
 /* phan khac */
-.about2{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 600px;
-    text-align: center;
-    background-color: white;
-  
+.about2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  background-color: white;
 }
 .about_experience {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-   
-    padding-left: 140px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 140px;
+
 }
 .a {
-    font-size: 13px !important;
+  font-size: 13px !important;
 }
-.title{
-    font-weight: bold;
-    font-size: 20px !important;
+.title {
+  font-weight: bold;
+  font-size: 20px !important;
 }
-.coder{
-    background-color: #fdf8ea ;
-    width: 300px;
-    height: 250px;
-    border-radius: 10px;
-    border: 2px solid black;
-
-
+.coder {
+  background-color: #fdf8ea;
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  border: 2px solid black;
 }
 .styling {
-    background-color: #fdf8ea ;
-    width: 300px;
-    height: 250px;
-    border-radius: 10px;
-    border: 2px solid black;
+  background-color: #fdf8ea;
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  border: 2px solid black;
 }
 .interact {
-    background-color: #fdf8ea ;
-    width: 300px;
-    height: 250px;
-    border-radius: 10px;
-    border: 2px solid black;
+  background-color: #fdf8ea;
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  border: 2px solid black;
 }
 .logo {
-    font-size: 60px;
+  font-size: 60px;
 }
-h2{
-    font-size: 35px !important;
-    font-weight: bold !important;
-    padding-top: 80px;
-    padding-bottom: 10px;
-}  
-.about_content{
-    margin-bottom: 50px;
+h2 {
+  font-size: 35px !important;
+  font-weight: bold !important;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+.about_content {
+  margin-bottom: 50px;
 }
 .me {
-    font-size: 15px !important;
+  font-size: 15px !important;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 600px) {
   .container-content h1 {
-    font-size: 30px !important;
+    font-size: 40px !important;
+ 
   }
   .container-content p {
     font-size: 15px !important;
@@ -161,10 +159,72 @@ h2{
   .container-content .italic {
     font-size: 13px !important;
   }
-  .container-content a{
+  .container-content a {
     font-size: 13px !important;
   }
-}
 
+  .container-img {
+    width: 320px; 
+    height: 370px;
+    margin: 40px auto; /* Căn giữa ảnh */
+    float: none;     
+    border: 5px solid black;
+  }
 
+  .container-content {
+    margin-top: 0;
+    padding: 0 !important;
+    text-align: center;
+     margin-left: 35px; 
+     margin-bottom: 30px;
+  }
+ 
+  html,
+  body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+  
+  @keyframes typing {
+    0%,
+    10% {
+      width: 0;
+    }
+    50%,
+    60% {
+      width: 45%;
+    }
+  }
+  p .animation {
+    animation: typing 2s steps(18, end) infinite alternate;
+  }
+  .about_experience {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 0 !important;
+    align-items: center;    /* Căn giữa tất cả các con theo chiều ngang */
+    width: 100%;
+    
+  }
+  .coder, .styling, .interact {
+    width: 90% !important; 
+    height: auto !important; 
+    min-height: 180px;     
+    padding: 20px 10px;
+  }
+  .about_experience .logo {
+    font-size: 35px;
+  }
+  .about_content {
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+  .about2 {
+    height: auto !important;  
+    background-color: white;   
+    padding-bottom: 100px;       
+    margin-bottom: 0 !important; 
+  }
 
+} 

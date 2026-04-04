@@ -38,6 +38,26 @@ button {
 button:hover{
     color:rgb(104, 104, 104);
 }
+/* Đảm bảo navbar luôn phủ hết chiều ngang */
+.navbar {
+    background-color: #ffcaca !important;
+    width: 100%;
+    border-bottom: 2px solid black !important;
+}
+
+@media only screen and (max-width: 600px){
+
+    .container .navbar-brand{
+        font-size: 20px;
+    }
+    #navbarNav{
+        width: 100%;
+        height: auto;
+        background-color: #ffcaca;
+        border: 2px  dotted black;
+        border-radius: 30px;
+    }
+}
 
 
 

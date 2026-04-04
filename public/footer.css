@@ -17,9 +17,9 @@ p{
     font-size: 17px !important;
     font-family: Lexend Deca !important;
 }
-.content_about .name{
+.content_about .names{
     color: #fb9191;
-    font-size: 23px ;
+    font-size: 23px !important;
 }
 .content_about .about{
     font-size: 14px;
@@ -48,4 +48,40 @@ hr {
     border: none;
     height: 1px;
     margin-top: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin:auto;
+    }
+    .content_about .names{
+        font-size:23px !important;
+        margin-left: 20px;
+        margin-top: 30px;
+        color: #ff4d7a;
+        font-weight: bold;
+    }
+    .content_about .about{
+        font-size: 13px !important;
+        margin-left: 20px;
+    }
+    .content_links{
+        font-size: 18px !important;
+        margin-left: 20px !important;
+    }
+    .content_links a{
+        font-size:13px !important ;
+    }
+    .content_logo {
+        font-size: 18px !important;
+        margin-left: 20px;
+    }
+    .content_logo p{
+        margin-top: 10px;
+    }
+   
+
+
+  
 }
